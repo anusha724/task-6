@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 
 // Change the database connection URL with yours
-mailto:mongoose.connect(mongodb+srv://anushak24marolix:RGZo6TkdKQyD56QU@cluster0.6vlhcvm.mongodb.net/?retryWrites=true&w=majority'', {
+mailto:mongoose.connect('mongodb+srv://anushak24marolix:RGZo6TkdKQyD56QU@cluster0.6vlhcvm.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
@@ -13,4 +13,5 @@ mailto:mongoose.connect(mongodb+srv://anushak24marolix:RGZo6TkdKQyD56QU@cluster0
 });
 
 module.exports = { mongoose };
+
 
